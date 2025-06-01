@@ -1,0 +1,102 @@
+```css
+.portfolio-container {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  color: #2d2d2d;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 32px 20px;
+  background: #faf8f5;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(80, 80, 80, 0.09);
+}
+
+.hero {
+  text-align: center;
+  padding: 40px 0 20px 0;
+  background: linear-gradient(90deg, #eecda3 0%, #ef629f 100%);
+  border-radius: 12px;
+  color: #fff;
+  margin-bottom: 32px;
+}
+
+.about, .services, .portfolio-gallery, .testimonials, .contact {
+  margin-bottom: 32px;
+}
+
+h2 {
+  border-bottom: 2px solid #ef629f;
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+
+.services ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.portfolio-gallery .gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+.gallery-item {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(80,80,80,0.04);
+  padding: 10px;
+  flex: 1 0 260px;
+  min-width: 260px;
+  max-width: 300px;
+  text-align: center;
+}
+
+.gallery-item img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.testimonials blockquote {
+  font-style: italic;
+  background: #fdeff2;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.contact input, .contact textarea {
+  padding: 10px;
+  border: 1px solid #d3d3d3;
+  border-radius: 6px;
+  font-size: 1em;
+}
+
+.contact button {
+  background: #ef629f;
+  color: #fff;
+  border: none;
+  padding: 10px 0;
+  border-radius: 6px;
+  font-size: 1em;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+@media (max-width: 700px) {
+  .portfolio-gallery .gallery {
+    flex-direction: column;
+    align-items: center;
+  }
+  .portfolio-container {
+    padding: 12px 3px;
+  }
+}
+```
